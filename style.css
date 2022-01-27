@@ -1,0 +1,238 @@
+@charset "utf-8";
+ /* CSS Document */
+
+body {
+      font-family: Helvetica;
+}
+
+h1 {
+  font-family: Fantasy;
+}
+
+h2 {
+  font-family: calibri;
+}
+
+p {
+  text-align: justify;  
+  
+}
+
+#rapaces {
+  width: 150px;
+  float:left;
+  margin:30px;
+  margin-right:25px;
+  margin-left:160px;
+  border-radius: 25px;
+  margin-top:25px;
+}
+
+#inicio {
+  font-family: calibri;
+  margin:20px;
+  margin-right:160px;
+  margin-left:160px;
+}
+
+#menu{
+  background-color: #000 ;
+}
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li{
+  display: inline-block;
+}
+
+#menu ul li a{
+  color: white;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+#menu ul li a:hover{
+  background-color: #42B881;
+}
+
+#mapa {
+  float: right;
+  margin:40px;
+  width:30%;
+  margin-right:160px;
+}
+
+#video {
+  float:left;
+  width:30%;
+  margin:40px;
+  margin-left:160px;
+}
+
+h4 {
+  font-family: calibri;
+}
+
+#acentor {
+  font-family: calibri;
+  float: left;
+  width: 30%;
+  margin-left: 24px;
+  border: 5px ridge #1A78AD;
+  border-radius: 25px;   
+  padding: 10px;
+  padding-bottom:180px;
+  background-color:#9AD8DC; 
+}
+
+#buitrenegro {
+  font-family: calibri;
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  border: 5px ridge #1A78AD;
+  border-radius: 25px;   
+  padding: 10px ;
+  background-color:#9AD8DC;
+}
+
+#aguila {
+  font-family: calibri;
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  border: 5px ridge #1A78AD;
+  border-radius: 25px;  
+  padding: 10px;   
+  background-color:#9AD8DC;
+  padding-bottom:107px;
+}
+
+#fotoacentor {
+  width: 150px;
+  float: left;
+  margin: 5px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+
+#fotobuitre {
+  width: 150px;
+  float: left;
+  margin: 5px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+#fotoaguila {
+  width: 150px;
+  float: left;
+  margin: 5px;
+  margin-right: 25px;
+  border-radius: 25px;
+}
+
+#galeria {
+  position:centre;
+}
+
+#galeria img {
+  width:20%;
+  margin:10px;
+  border-radius:25px;
+  border: 5px ridge #1A78AD;
+  box-shadow: 0 8px 8px;
+}
+
+#tabla{
+  margin-right:50px;
+  margin-left:20px;
+  float:left;
+  font-family:calibri;
+  border: 5px ridge #1A78AD;
+} 
+
+#top {
+  background-color: #CB5423;
+  border-radius:25px;
+  float:left;
+  padding:10px;
+}
+
+#top ol {
+  float:left;
+  font-family:calibri;
+}
+
+#peligro {
+  float:right;
+  width:125px;
+  margin-right:20px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+thead {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th {
+  background: grey;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(154, 216, 220);
+}
+
+#introVideo{
+  float:left;
+  margin:50px;
+  margin-left:150px;
+}
+
+#acentorAlpinoVideo{
+  float:right;
+  margin:50px;
+  margin-right:150px;
+}
+
+#buitreNegroVideo{
+  float:left;
+  margin:50px;
+  margin-left:150px;
+}
+
+#aguilaImperialVideo{
+  float:right;
+  margin:50px;
+  margin-right:150px;
+}
+
+#fochaCornudaVideo{
+  float:left;
+  margin:50px;
+  margin-left:150px;
+}
+
+#quebrantahuesosVideo{
+  float:right;
+  margin:50px;
+  margin-right:150px;
+}
+footer {
+  float:left;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  #galeria img {
+    width: 40%;
+  }
+}
